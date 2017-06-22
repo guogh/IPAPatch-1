@@ -16,6 +16,7 @@
 		C6B263281E7BC9DF009B4DEA /* IPAPatchEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B263261E7BC9DF009B4DEA /* IPAPatchEntry.m */; };
 		C6B2634D1E7BCB31009B4DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2634C1E7BCB31009B4DEA /* main.m */; };
 		C6B263501E7BCB31009B4DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2634F1E7BCB31009B4DEA /* AppDelegate.m */; };
+		CFB9411D1EFA74FE00FAD187 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB9411C1EFA74FE00FAD187 /* CaptainHook.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C6B2634F1E7BCB31009B4DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C6B2635C1E7BCB31009B4DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B263621E7BCD03009B4DEA /* patch.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = patch.sh; sourceTree = "<group>"; };
+		CFB9411C1EFA74FE00FAD187 /* CaptainHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainHook.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		C6B263091E7BC97B009B4DEA /* IPAPatch */ = {
 			isa = PBXGroup;
 			children = (
+				CFB9411C1EFA74FE00FAD187 /* CaptainHook.h */,
 				C63AC1A01E838B8E0094B1C5 /* Vendors */,
 				C6B2630B1E7BC97B009B4DEA /* Info.plist */,
 				C6B263251E7BC9DF009B4DEA /* IPAPatchEntry.h */,
@@ -152,6 +155,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB9411D1EFA74FE00FAD187 /* CaptainHook.h in Headers */,
 				C6B263271E7BC9DF009B4DEA /* IPAPatchEntry.h in Headers */,
 				C63AC1A61E838BB70094B1C5 /* fishhook.h in Headers */,
 				C63AC1AA1E8392210094B1C5 /* IPAPatchBypassAntiDebugging.h in Headers */,
@@ -214,7 +218,7 @@
 					};
 					C6B263481E7BCB31009B4DEA = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = DMJXDB9H6Q;
+						DevelopmentTeam = 22DBSR3WQ7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -446,7 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
-				DEVELOPMENT_TEAM = DMJXDB9H6Q;
+				DEVELOPMENT_TEAM = 22DBSR3WQ7;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -465,7 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
-				DEVELOPMENT_TEAM = DMJXDB9H6Q;
+				DEVELOPMENT_TEAM = 22DBSR3WQ7;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_BUNDLE_ID=$(PRODUCT_BUNDLE_IDENTIFIER)";
 				INFOPLIST_FILE = "IPAPatch-DummyApp/Info.plist";
